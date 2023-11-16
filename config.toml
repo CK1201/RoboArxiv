@@ -1,4 +1,4 @@
-site_title = "RoboArxiv"
+site_title = "MyArxiv"
 limit_days = 7
 cache_url = "https://ck1201.github.io/RoboArxiv/cache.json"
 
@@ -6,16 +6,6 @@ cache_url = "https://ck1201.github.io/RoboArxiv/cache.json"
 limit = 300
 category = "cs.RO"
 title = "Robotics"
-
-[[sources]]
-limit = 300
-category = "cs.SY"
-title = "Systems and Control"
-
-[[sources]]
-limit = 300
-category = "math.OC"
-title = "Optimization and Control"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
