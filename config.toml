@@ -1,5 +1,5 @@
-site_title = "MyArxiv"
-limit_days = 14
+site_title = "RoboArxiv"
+limit_days = 7
 cache_url = "https://ck1201.github.io/RoboArxiv/cache.json"
 
 [[sources]]
