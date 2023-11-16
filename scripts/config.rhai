@@ -2,12 +2,11 @@ let titles_type = ["Survey", "Review", "Overview"];
 let titles_model = ["mobile manipulators", "mobile manipulation", "grasp", "planning"];
 let titles_method = ["Optimization", "Active-Perceptive", "Model Predictive Control"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Shaojie Shen", "Luca Carlone", "Yoshua Bengio", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Marco Hutter", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart", "Fei Gao", 
-"Tong Qin", "Wenchao Ding", "Fu Zhang", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen", "Boyu Zhou"];
+let authors_array = ["Shaojie Shen", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Marco Hutter", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen", "Boyu Zhou"];
 
 let conferences = [
     // AI
-    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "TRO", "IJRR", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    "AAAI", "AAMAS", "ACM MM", "AISTATS", "CORL", "RAM", "RAS", "TIM", "RAL", "TITS", "TMECH", "TASE", "IJRR", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "RSS", "JFR", "TRO",
     // CV
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
     // DM
