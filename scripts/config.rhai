@@ -1,8 +1,10 @@
-let titles_type = ["Survey", "Review", "Overview"];
-let titles_model = ["mobile manipulators", "mobile manipulation", "grasp", "planning"];
-let titles_method = ["Optimization", "Active-Perceptive", "Model Predictive Control"];
+let titles_type = ["Survey", "Review", "Overview", "Benchmark"];
+let titles_model = ["Manipulation", "Manipulator", "Grasp", "Quadrotor", "Drone", "Plan", "Active-Perceptive", "Collision", "Navigation"];
+let titles_method = ["Optimization", "Model Predictive"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Shaojie Shen", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Marco Hutter", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen", "Boyu Zhou"];
+let authors_array = ["Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Marco Hutter", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart", 
+"Vijay Kumar", "Shaojie Shen", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Boyu Zhou", 
+"Yanjun Cao", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen"];
 
 let conferences = [
     // AI
