@@ -1,9 +1,9 @@
 let titles_type = ["Survey", "Review", "Overview", "Benchmark"];
-let titles_model = ["Manipulation", "Manipulator", "Grasp", "Quadrotor", "Drone", "Plan", "Active-Perceptive", "Collision", "Navigation"];
-let titles_method = ["Optimization", "Model Predictive"];
+let titles_model = ["Manipulation", "Manipulator", "Grasp", "Quadrotor", "Drone", "Plan", "Active-Perceptive", "Collision", "Navigation", "Foundation Model", "Interaction"];
+let titles_method = ["Optimization", "Model Predictive", "Diffusion", "Vision-Language-Action"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Dieter Fox", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Marco Hutter", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart", 
-"Vijay Kumar", "Shaojie Shen", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Boyu Zhou", 
+"Vijay Kumar", "Shaojie Shen", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Boyu Zhou", "Xiaolong Wang", "Shuran Song", "Russ Tedrake", "Hao Su", "Sergey Levine", "Huazhe Xu", 
 "Yanjun Cao", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen"];
 
 let conferences = [
